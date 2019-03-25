@@ -2,6 +2,7 @@
 
 Docker image with installed CLI tools: `ansible`, `aws`, `jinja2`, `kubectl` and `terraform`.
 
+
 # DevOps tools
 
 * Ansible   `2.7.9`
@@ -11,6 +12,7 @@ Docker image with installed CLI tools: `ansible`, `aws`, `jinja2`, `kubectl` and
 * helm      `v2.13.0`
 * Terraform `0.11.13`
 
+
 # Tools
 
 * bash (+ bash_completion)
@@ -18,11 +20,12 @@ Docker image with installed CLI tools: `ansible`, `aws`, `jinja2`, `kubectl` and
 * jq
 * openssh-client
 * openssl
-* python-virtualenv
+* python3 (+ virtualenv)
 * sshpass
 * tar
 * vim
-* 
+
+
 # Basic usage
 
 ```
@@ -30,6 +33,7 @@ docker run --rm hajowieland/opsbox ansible --help
 docker run --rm hajowieland/opsbox aws help
 docker run --rm hajowieland/opsbox kubectl --help
 ```
+
 
 # Advanced usage
 
