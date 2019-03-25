@@ -38,7 +38,7 @@ docker run --rm hajowieland/opsbox kubectl --help
 # Advanced usage
 
 ```
-docker run -ti -v ${HOME}/.opsbox -v ${PWD}:/opsbox itsvit/opsbox kubectl get po --all-namespaces
-docker run -ti -v ${HOME}/.opsbox -v ${PWD}:/opsbox itsvit/opsbox aws ec2 describe-instances --region us-west-2
+docker run -ti -v ${HOME}/.opsbox -v ${PWD}:/opsbox itsvit/opsbox kubectl get pods --all-namespaces
+docker run -ti -v ${HOME}/.opsbox -v ${PWD}:/opsbox itsvit/opsbox aws ec2 describe-instances --region eu-central-1
 docker run -ti -v ${HOME}/.opsbox -v ${PWD}:/opsbox itsvit/opsbox ansible-playbook playbooks/describe-kubernetes-cluster.yml
 ```
