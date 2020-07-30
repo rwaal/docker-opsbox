@@ -3,7 +3,7 @@
 Docker image with installed CLI tools: `ansible`, `aws`, `jinja2`, `kubectl` and `terraform`.
 
 
-# DevOps tools
+# DevOps tools :rocket:
 
 * Ansible   `2.7.9`
 * awscli    `1.16.131`
